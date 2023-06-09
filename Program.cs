@@ -12,25 +12,57 @@ namespace TPFinal_Sanchez
                 //c. El menor de los números primos.
 
                 //Nota: evaluar el uso de una función que analice si un número dado es primo o no y que devuelva true o false según corresponda.    
-            int n, mayor;
+            int n, mayor=0, conImpares=0, menor=0;
+            bool bandera=true, bandera2=true;
             Console.WriteLine("Por favor, ingrese un número o 0 para salir :");
             n = int.Parse(Console.ReadLine());
-            //mayor = n;
+            
             while (n != 0)
-            {   //el mayor de los numeros pares
+            {   //a. el mayor de los numeros pares
+                Console.WriteLine(par(n));
+                if (par(n))
+                {     
+                  if (bandera)
+                  {
+                    mayor=n;
+                    bandera=false;
+                  }
+                  mayorNum(n, ref mayor); 
+                  //mayor = n;               
+
+                }
+
+                //b. La cantidad de números impares.
+                else
+                {                
+                    conImpares++;
+                }
+                                 //c. El menor de los números primos.
+                Console.WriteLine(primo(n));
+                if (primo(n))
+                {
+                    if (bandera2)
+                    {
+                    menor=n;
+                    bandera2=false;
+                    }
+                    menorNum(n, ref menor); 
+                }
                 Console.WriteLine("Por favor, ingrese un número o 0 para salir :");
                 n = int.Parse(Console.ReadLine());
 
                 
             }
-                
+            Console.WriteLine("El mayor de los numeros pares es: " + mayor);
+            Console.WriteLine("El total de números impares es: " + conImpares);
+            Console.WriteLine("El menor de los numeros primos es: " + menor);
         }
         //función que devuelve verdadero si el numero ingresado es primo.
         static bool primo(int a)
         {   int con = 0;
             for (int x = 0; x < a; x++)
-            {   con = 0;
-                if (a / (x+1) == 0)
+            {   
+                if (a % (x+1) == 0)
                 {
                     con++;
                 }                
@@ -39,7 +71,7 @@ namespace TPFinal_Sanchez
                 {
                     return true;
                 }
-                else
+            else
                 {
                     return false;
                 }
@@ -47,7 +79,7 @@ namespace TPFinal_Sanchez
         //Función que devuelve verdadero si el numero es par.
         static bool par(int a)
         {
-            if (a / 2 == 0)
+            if (a % 2 == 0)
             {
                 return true;
             }
@@ -57,7 +89,7 @@ namespace TPFinal_Sanchez
             }
         }
         //funcion que devuelve el mayor entre dos numeros
-        static int mayor(int mayor, int valorEvaluar)
+        static int mayorNum(int valorEvaluar, ref int mayor)
         {
             if (mayor <= valorEvaluar)
             {
@@ -69,6 +101,20 @@ namespace TPFinal_Sanchez
                 return mayor;
             } 
         }
+        //funcion que devuelve el menor entre dos numeros
+        static int menorNum(int valorEvaluar, ref int menor)
+        {
+            if (menor >= valorEvaluar)
+            {
+                menor = valorEvaluar;
+                return menor;
+            }
+            else
+            {
+                return menor;
+            } 
+        }
+        
         
     }
 }
