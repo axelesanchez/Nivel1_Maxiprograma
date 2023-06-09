@@ -1,0 +1,16 @@
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.csproj.AssemblyReference.cache
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.AssemblyInfoInputs.cache
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.AssemblyInfo.cs
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.csproj.CoreCompileInputs.cache
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.exe
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.deps.json
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.runtimeconfig.json
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.runtimeconfig.dev.json
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.dll
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\ref\TPFinal_Sanchez.dll
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\bin\Debug\net5.0\TPFinal_Sanchez.pdb
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.dll
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\ref\TPFinal_Sanchez.dll
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.pdb
+C:\Users\axelr\OneDrive\Escritorio\C#\condicionalesmas\repaso\ejerciciosFunciones\TPFinal_Sanchez\obj\Debug\net5.0\TPFinal_Sanchez.genruntimeconfig.cache
